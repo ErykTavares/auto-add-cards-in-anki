@@ -1,0 +1,17 @@
+AutoAddCards.spec
+build/AutoAddCards/Analysis-00.toc
+build/AutoAddCards/AutoAddCards.exe.manifest
+build/AutoAddCards/base_library.zip
+build/AutoAddCards/EXE-00.toc
+build/AutoAddCards/PKG-00.pkg
+build/AutoAddCards/PKG-00.toc
+build/AutoAddCards/PYZ-00.pyz
+build/AutoAddCards/PYZ-00.toc
+build/AutoAddCards/Tree-00.toc
+build/AutoAddCards/Tree-01.toc
+build/AutoAddCards/Tree-02.toc
+build/AutoAddCards/warn-AutoAddCards.txt
+build/AutoAddCards/xref-AutoAddCards.html
+__pycache__/main.cpython-39.pyc
+dist/AutoAddCards.exe
+models/__pycache__/auto_deck.cpython-39.pyc
