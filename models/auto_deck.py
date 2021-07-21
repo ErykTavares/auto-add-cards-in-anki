@@ -12,7 +12,7 @@ class Auto_Add_Cards():
 
     def Creat_textlist(self):
         """chama cada frase ou palavra de texts.
-            As frases ou palavras devem ter seu final delimitado por uma virgula ','.
+            As frases ou palavras devem ter seu final delimitado por uma virgula ';'.
             chama todas as funçoes do processo de automação para cada frase e palavra """
         for self.phrase in self.texts.split(";"):
             auto.sleep(1)
@@ -30,6 +30,7 @@ class Auto_Add_Cards():
     def front_input(self):
         """Cola as frases ou palavras no campo de entrada front"""
         clip.copy(self.phrase)
+        sleep(0.5)
         auto.hotkey("ctrl", "v")
 
 
@@ -41,11 +42,12 @@ class Auto_Add_Cards():
         auto.press("tab")
         auto.press("tab")
         auto.press("enter")
+        sleep(0.5)
 
 
     def back_input(self):
         """Clica e cola a tradução da frase ou palavra no campo de entrada back """
-        sleep(0.7)
+        sleep(1)
         auto.press("tab")
         clip.copy(self.translator())
         sleep(0.5)
